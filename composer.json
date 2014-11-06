@@ -1,0 +1,20 @@
+{
+	"name": "kron0s/php-yandex-pdd-api-wrapper",
+	"type": "library",
+	"description": "yandex pdd api wrapper",
+	"keywords": ["yandex-pdd", "api"],
+	"authors": [
+		{
+			"name": "Alexey Pushnikov",
+			"homepage": "http://kron0s.com"
+		}
+	],
+	"require": {
+		"php":                ">=5.3.2",
+		"ext-curl":           "*",
+		"kriswallsmith/buzz": ">=0.7"
+	},
+	"autoload": {
+		"psr-0": { "YandexPdd\\": "lib/" }
+	}
+}
